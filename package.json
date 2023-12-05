@@ -1,0 +1,12 @@
+{
+  "name": "CypressAutomaton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "runtest": "npm run test --"
+    }
+}
+
+
