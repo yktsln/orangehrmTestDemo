@@ -34,14 +34,14 @@ describe('dashboard Test Suite',()=>{
     })
 
     it('Distribution by Sub Unit widget test cases',()=>{
-     dashBoard.distributionBySubUnit();
+        dashBoard.distributionBySubUnit();
     })
 
     it('Employee Distribution by Location widget test cases',()=>{
         dashBoard.EmployeeDistributionbyLocation();
     })
 
-    it.only('footer test cases',()=>{
+    it('footer test cases',()=>{
         dashBoard.footer();
     })
 

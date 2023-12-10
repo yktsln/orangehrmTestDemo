@@ -1,12 +1,16 @@
 {
-  "name": "CypressAutomaton",
+  "name": "cypress",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
-    "runtest": "npm run test --"
-    }
+    "runtest": "npm run test --",
+    "test1": "cypress run",
+    "runtest1": "cypress run --spec cypress/e2e/dashboardTestSuite/dashBoardTestSuite.cy.js"
+  }
 }
+
+
 
 
